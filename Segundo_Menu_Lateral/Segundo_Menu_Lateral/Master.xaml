@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Segundo_Menu_Lateral.Master">
+             Title="Master">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Profesor" x:Name="vtnVer" BackgroundColor="White" ImageSource="https://cdn.icon-icons.com/icons2/876/PNG/512/male-user-on-a-circle_icon-icons.com_68303.png" HeightRequest="250" Clicked="vtnVer_Clicked"/>
+            <Button Text="Estudiantes" x:Name="vtnVerEst" BackgroundColor="White" ImageSource="https://cdn.icon-icons.com/icons2/2387/PNG/512/school_students_icon_144607.png" HeightRequest="250"  Clicked="vtnVerEst_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
